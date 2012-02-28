@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D574DD614FD5A85009CEE42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D574DD514FD5A85009CEE42 /* UIKit.framework */; };
+		4D574DD814FD5A85009CEE42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D574DD714FD5A85009CEE42 /* Foundation.framework */; };
+		4D574DDA14FD5A85009CEE42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D574DD914FD5A85009CEE42 /* CoreGraphics.framework */; };
+		4D574DE014FD5A85009CEE42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D574DDE14FD5A85009CEE42 /* InfoPlist.strings */; };
+		4D574DE214FD5A85009CEE42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D574DE114FD5A85009CEE42 /* main.m */; };
+		4D574DE614FD5A85009CEE42 /* KFAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D574DE514FD5A85009CEE42 /* KFAAppDelegate.m */; };
+		4D574DE914FD5A85009CEE42 /* KFAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D574DE814FD5A85009CEE42 /* KFAViewController.m */; };
+		4D574DEC14FD5A85009CEE42 /* KFAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D574DEA14FD5A85009CEE42 /* KFAViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D574DD114FD5A85009CEE42 /* KeyFrameAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyFrameAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D574DD514FD5A85009CEE42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D574DD714FD5A85009CEE42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D574DD914FD5A85009CEE42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D574DDD14FD5A85009CEE42 /* KeyFrameAnimation-Info.plist */ = {isa = PBXFileReference; path = "KeyFrameAnimation-Info.plist"; sourceTree = "<group>"; };
+		4D574DDF14FD5A85009CEE42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D574DE114FD5A85009CEE42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D574DE314FD5A85009CEE42 /* KeyFrameAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "KeyFrameAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		4D574DE414FD5A85009CEE42 /* KFAAppDelegate.h */ = {isa = PBXFileReference; path = KFAAppDelegate.h; sourceTree = "<group>"; };
+		4D574DE514FD5A85009CEE42 /* KFAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAAppDelegate.m; sourceTree = "<group>"; };
+		4D574DE714FD5A85009CEE42 /* KFAViewController.h */ = {isa = PBXFileReference; path = KFAViewController.h; sourceTree = "<group>"; };
+		4D574DE814FD5A85009CEE42 /* KFAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAViewController.m; sourceTree = "<group>"; };
+		4D574DEB14FD5A85009CEE42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KFAViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D574DCE14FD5A85009CEE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D574DD614FD5A85009CEE42 /* UIKit.framework in Frameworks */,
+				4D574DD814FD5A85009CEE42 /* Foundation.framework in Frameworks */,
+				4D574DDA14FD5A85009CEE42 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D574DC614FD5A85009CEE42 = {
+			isa = PBXGroup;
+			children = (
+				4D574DDB14FD5A85009CEE42 /* KeyFrameAnimation */,
+				4D574DD414FD5A85009CEE42 /* Frameworks */,
+				4D574DD214FD5A85009CEE42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D574DD214FD5A85009CEE42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D574DD114FD5A85009CEE42 /* KeyFrameAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D574DD414FD5A85009CEE42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D574DD514FD5A85009CEE42 /* UIKit.framework */,
+				4D574DD714FD5A85009CEE42 /* Foundation.framework */,
+				4D574DD914FD5A85009CEE42 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D574DDB14FD5A85009CEE42 /* KeyFrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4D574DE414FD5A85009CEE42 /* KFAAppDelegate.h */,
+				4D574DE514FD5A85009CEE42 /* KFAAppDelegate.m */,
+				4D574DE714FD5A85009CEE42 /* KFAViewController.h */,
+				4D574DE814FD5A85009CEE42 /* KFAViewController.m */,
+				4D574DEA14FD5A85009CEE42 /* KFAViewController.xib */,
+				4D574DDC14FD5A85009CEE42 /* Supporting Files */,
+			);
+			path = KeyFrameAnimation;
+			sourceTree = "<group>";
+		};
+		4D574DDC14FD5A85009CEE42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D574DDD14FD5A85009CEE42 /* KeyFrameAnimation-Info.plist */,
+				4D574DDE14FD5A85009CEE42 /* InfoPlist.strings */,
+				4D574DE114FD5A85009CEE42 /* main.m */,
+				4D574DE314FD5A85009CEE42 /* KeyFrameAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D574DD014FD5A85009CEE42 /* KeyFrameAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D574DEF14FD5A85009CEE42 /* Build configuration list for PBXNativeTarget "KeyFrameAnimation" */;
+			buildPhases = (
+				4D574DCD14FD5A85009CEE42 /* Sources */,
+				4D574DCE14FD5A85009CEE42 /* Frameworks */,
+				4D574DCF14FD5A85009CEE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyFrameAnimation;
+			productName = KeyFrameAnimation;
+			productReference = 4D574DD114FD5A85009CEE42 /* KeyFrameAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D574DC814FD5A85009CEE42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Hawk iMedia";
+			};
+			buildConfigurationList = 4D574DCB14FD5A85009CEE42 /* Build configuration list for PBXProject "KeyFrameAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D574DC614FD5A85009CEE42;
+			productRefGroup = 4D574DD214FD5A85009CEE42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D574DD014FD5A85009CEE42 /* KeyFrameAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D574DCF14FD5A85009CEE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D574DE014FD5A85009CEE42 /* InfoPlist.strings in Resources */,
+				4D574DEC14FD5A85009CEE42 /* KFAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D574DCD14FD5A85009CEE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D574DE214FD5A85009CEE42 /* main.m in Sources */,
+				4D574DE614FD5A85009CEE42 /* KFAAppDelegate.m in Sources */,
+				4D574DE914FD5A85009CEE42 /* KFAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D574DDE14FD5A85009CEE42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D574DDF14FD5A85009CEE42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D574DEA14FD5A85009CEE42 /* KFAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D574DEB14FD5A85009CEE42 /* en */,
+			);
+			name = KFAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D574DED14FD5A85009CEE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D574DEE14FD5A85009CEE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D574DF014FD5A85009CEE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyFrameAnimation/KeyFrameAnimation-Prefix.pch";
+				INFOPLIST_FILE = "KeyFrameAnimation/KeyFrameAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D574DF114FD5A85009CEE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyFrameAnimation/KeyFrameAnimation-Prefix.pch";
+				INFOPLIST_FILE = "KeyFrameAnimation/KeyFrameAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D574DCB14FD5A85009CEE42 /* Build configuration list for PBXProject "KeyFrameAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D574DED14FD5A85009CEE42 /* Debug */,
+				4D574DEE14FD5A85009CEE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D574DEF14FD5A85009CEE42 /* Build configuration list for PBXNativeTarget "KeyFrameAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D574DF014FD5A85009CEE42 /* Debug */,
+				4D574DF114FD5A85009CEE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D574DC814FD5A85009CEE42 /* Project object */;
+}

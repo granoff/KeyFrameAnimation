@@ -15,6 +15,7 @@
 		4D574DE614FD5A85009CEE42 /* KFAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D574DE514FD5A85009CEE42 /* KFAAppDelegate.m */; };
 		4D574DE914FD5A85009CEE42 /* KFAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D574DE814FD5A85009CEE42 /* KFAViewController.m */; };
 		4D574DEC14FD5A85009CEE42 /* KFAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D574DEA14FD5A85009CEE42 /* KFAViewController.xib */; };
+		4D574DF314FD5B55009CEE42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D574DF214FD5B55009CEE42 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		4D574DD514FD5A85009CEE42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4D574DD714FD5A85009CEE42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D574DD914FD5A85009CEE42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4D574DDD14FD5A85009CEE42 /* KeyFrameAnimation-Info.plist */ = {isa = PBXFileReference; path = "KeyFrameAnimation-Info.plist"; sourceTree = "<group>"; };
+		4D574DDD14FD5A85009CEE42 /* KeyFrameAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyFrameAnimation-Info.plist"; sourceTree = "<group>"; };
 		4D574DDF14FD5A85009CEE42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D574DE114FD5A85009CEE42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D574DE314FD5A85009CEE42 /* KeyFrameAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "KeyFrameAnimation-Prefix.pch"; sourceTree = "<group>"; };
-		4D574DE414FD5A85009CEE42 /* KFAAppDelegate.h */ = {isa = PBXFileReference; path = KFAAppDelegate.h; sourceTree = "<group>"; };
+		4D574DE314FD5A85009CEE42 /* KeyFrameAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyFrameAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		4D574DE414FD5A85009CEE42 /* KFAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAAppDelegate.h; sourceTree = "<group>"; };
 		4D574DE514FD5A85009CEE42 /* KFAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAAppDelegate.m; sourceTree = "<group>"; };
-		4D574DE714FD5A85009CEE42 /* KFAViewController.h */ = {isa = PBXFileReference; path = KFAViewController.h; sourceTree = "<group>"; };
+		4D574DE714FD5A85009CEE42 /* KFAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAViewController.h; sourceTree = "<group>"; };
 		4D574DE814FD5A85009CEE42 /* KFAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAViewController.m; sourceTree = "<group>"; };
 		4D574DEB14FD5A85009CEE42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KFAViewController.xib; sourceTree = "<group>"; };
+		4D574DF214FD5B55009CEE42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D574DF314FD5B55009CEE42 /* QuartzCore.framework in Frameworks */,
 				4D574DD614FD5A85009CEE42 /* UIKit.framework in Frameworks */,
 				4D574DD814FD5A85009CEE42 /* Foundation.framework in Frameworks */,
 				4D574DDA14FD5A85009CEE42 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +70,7 @@
 		4D574DD414FD5A85009CEE42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D574DF214FD5B55009CEE42 /* QuartzCore.framework */,
 				4D574DD514FD5A85009CEE42 /* UIKit.framework */,
 				4D574DD714FD5A85009CEE42 /* Foundation.framework */,
 				4D574DD914FD5A85009CEE42 /* CoreGraphics.framework */,

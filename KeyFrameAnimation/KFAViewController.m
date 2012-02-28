@@ -7,8 +7,10 @@
 //
 
 #import "KFAViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation KFAViewController
+@synthesize button;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +28,7 @@
 
 - (void)viewDidUnload
 {
+    [self setButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +60,21 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+-(IBAction)buttonPress:(id)sender
+{
+    NSString *keyPath = @"anchorPoint.x";    
+    CAKeyframeAnimation *kfa = [CAKeyframeAnimation animationWithKeyPath:keyPath];
+    [kfa setValues:[NSArray arrayWithObjects:
+                    [NSNumber numberWithFloat:-.05],
+                    [NSNumber numberWithFloat:.1],
+                    [NSNumber numberWithFloat:-.1],
+                    [NSNumber numberWithFloat:.1],
+                    [NSNumber numberWithFloat:-.05],
+                    nil]];    
+    [kfa setDuration:.35];
+    [kfa setAdditive:YES];
+    [kfa setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+    [button.layer addAnimation:kfa forKey:nil];
+
+}
 @end

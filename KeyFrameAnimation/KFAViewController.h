@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface KFAViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *button;
+
+-(IBAction)buttonPress:(id)sender;
 
 @end
